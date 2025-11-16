@@ -16,4 +16,21 @@ Para ejecutar este proyecto, necesitarás tener las siguientes librerías instal
 
 [Requirements](https://github.com/drmagestad/metadata_analyzer/blob/main/requirement.txt)
 
+```bash
+python metadata_analyzer.py
+```
 
+El script te pedirá que ingreses lo siguiente:
+
+- Ruta de la imagen: La ruta completa o relativa del archivo de imagen que deseas analizar.
+- Nombre del archivo de salida: El nombre del archivo .txt donde se guardarán los metadatos extraídos.
+
+## Ejemplo de salida
+
+<p align="center">
+  <img src="https://github.com/drmagestad/metadata_analyzer/blob/main/img/resultado1.png" alt="INFO" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/drmagestad/metadata_analyzer/blob/main/img/resultado3.png" alt="INFO2" />
+</p>
