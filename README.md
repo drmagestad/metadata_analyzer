@@ -1,21 +1,19 @@
 <h1 align="center">Metadata Analyzer</h1>
 
-Este proyecto proporciona una forma sencilla de extraer metadatos de imágenes en formato JPG, JPEG y PNG. La clase `ImageMetadataExtractor` se encarga de extraer los metadatos EXIF de imágenes JPG y JPEG, y los metadatos generales de imágenes PNG.
+Este proyecto en Python permite extraer metadatos de imágenes, incluyendo información EXIF, GPS, software utilizado, y otros detalles. El script extrae la metadata de imágenes y la guarda en un archivo de texto legible.
 
-## Funcionalidad
+## Características
 
-- **EXIF Metadata**: Para las imágenes en formato JPG y JPEG, se extraen los metadatos EXIF, como la orientación, fecha de creación, etc.
-- **PNG Metadata**: Para imágenes PNG, se extraen los metadatos generales almacenados en `img.info`.
-- **Soporte para múltiples formatos**: Actualmente soporta formatos JPG, JPEG y PNG.
+- Extrae información básica de la imagen: tamaño, resolución, formato, etc.
+- Extrae datos EXIF, como la fecha de creación, la cámara utilizada y el software.
+- Extrae información GPS (si está disponible) y la convierte a coordenadas decimales.
+- Utiliza `geopy` para obtener la ubicación legible a partir de las coordenadas GPS.
+- Guarda todos los metadatos extraídos en un archivo de texto.
 
-## Instalación
+## Modo de uso
 
-### Requisitos previos
+Para ejecutar este proyecto, necesitarás tener las siguientes librerías instaladas:
 
-- Python 3.x
-- La librería `Pillow` (una fork de `PIL`) es utilizada para abrir y procesar las imágenes.
+[Requirements](https://github.com/drmagestad/metadata_analyzer/blob/main/requirement.txt)
 
-Para instalar los requisitos, usa:
 
-```bash
-pip install Pillow
