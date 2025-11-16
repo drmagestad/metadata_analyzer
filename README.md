@@ -25,12 +25,23 @@ El script te pedirá que ingreses lo siguiente:
 - Ruta de la imagen: La ruta completa o relativa del archivo de imagen que deseas analizar.
 - Nombre del archivo de salida: El nombre del archivo .txt donde se guardarán los metadatos extraídos.
 
-## Ejemplo de salida
+## Ejemplos de salida
+
+- Ejemplo 1:
 
 <p align="center">
   <img src="https://github.com/drmagestad/metadata_analyzer/blob/main/img/resultado1.png" alt="INFO" />
 </p>
 
+- Ejemplo 2:
+
 <p align="center">
   <img src="https://github.com/drmagestad/metadata_analyzer/blob/main/img/resultado3.png" alt="INFO2" />
 </p>
+
+## Notas Finales
+
+El objetivo de este script fue crear una herramienta sencilla que permitiera extraer los metadatos de diferentes tipos de imágenes de manera rápida. A través de este proyecto, he aprendido más sobre el manejo de archivos, cómo interactuar con bibliotecas como `Pillow` y `ExifTags`, y cómo tratar diferentes formatos de datos.
+
+Este es un proyecto inicial, pero fue una excelente oportunidad para practicar conceptos clave relacionados con el análisis de imágenes, la privacidad y la seguridad en Python.
+
